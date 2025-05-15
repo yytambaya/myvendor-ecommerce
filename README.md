@@ -1,4 +1,4 @@
-# E-Marketplace "Ghuri"
+# E-Marketplace
 
 This is a multi-vendor e-commerce website like Daraz. This is our Software development project in the Sixth Semester.
 
