@@ -60,6 +60,7 @@ body {
   <a href="faq.php">FAQ</a>
   <a href="contact.php">Contact</a>
   <a href="community.php">Community</a>
+  <a href="vulnerable_login.php" style="color: #ff5050;">Vulnerable Login</a>
 </div>
 
 

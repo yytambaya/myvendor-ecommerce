@@ -59,7 +59,8 @@ if (isset($_GET['logout']) && $_GET['logout'] == 1) {
 
      <?php if(!isset($_SESSION['logged_in'])) :?>
          <li><a href="signUp.php"><span class="glyphicon glyphicon-user"></span><?php echo " ".$register;?></a></li>
-         <li><a href="signIn.php" style="border-right:1px solid white"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+         <li><a href="signIn.php"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+         <li><a href="vulnerable_login.php" style="border-right:1px solid white;color:#ff5050;"><span class="glyphicon glyphicon-warning-sign"></span> Vulnerable Login</a></li>
       
       <?php elseif ($_SESSION['logged_in']==1) :?>
 
